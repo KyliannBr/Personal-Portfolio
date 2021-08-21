@@ -1,0 +1,490 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body
+{
+  background-image: url(fontbody.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  display: none;
+}
+
+
+#FP
+{
+  font-size: 23px;;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#containerMega
+{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  background-color: rgb(255, 255, 255, 0.1);
+  margin-top: 2em;
+  border-radius: 6px;
+}
+#containerSemi1
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container1:hover {box-shadow: -7px 9px 16px;}
+#container2:hover {box-shadow: -7px 9px 16px;}
+#container3:hover {box-shadow: -7px 9px 16px;}
+#container4:hover {box-shadow: -7px 9px 16px;}
+#container5:hover {box-shadow: -7px 9px 16px;}
+#container6:hover {box-shadow: -7px 9px 16px;}
+#container7:hover {box-shadow: -7px 9px 16px;}
+#container8:hover {box-shadow: -7px 9px 16px;}
+#container9:hover {box-shadow: -7px 9px 16px;}
+#container10:hover {box-shadow: -7px 9px 16px;}
+#container11:hover {box-shadow: -7px 9px 16px;}
+#container12:hover {box-shadow: -7px 9px 16px;}
+#container13:hover {box-shadow: -7px 9px 16px;}
+#container14:hover {box-shadow: -7px 9px 16px;}
+#container15:hover {box-shadow: -7px 9px 16px;}
+#container16:hover {box-shadow: -7px 9px 16px;}
+#container17:hover {box-shadow: -7px 9px 16px;}
+#container18:hover {box-shadow: -7px 9px 16px;}
+#container19:hover {box-shadow: -7px 9px 16px;}
+#container20:hover {box-shadow: -7px 9px 16px;}
+#container21:hover {box-shadow: -7px 9px 16px;}
+#container22:hover {box-shadow: -7px 9px 16px;}
+#container23:hover {box-shadow: -7px 9px 16px;}
+#container24:hover {box-shadow: -7px 9px 16px;}
+#container25:hover {box-shadow: -7px 9px 16px;}
+
+#containerCenter
+{
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#containerCenter p {
+  color: white;
+  padding-left: 100%;
+  padding-right: 100%;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+/* ----------------------------------------------- Audi ----------------------------------------------- */
+
+#container1 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Audi/R8_V10_decennium.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+  margin-top: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container1 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container2 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Audi/RS\ Q8\ ABT.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  box-shadow: -4px 4px 8px;
+}
+
+#container2 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container3 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Audi/RS\ 7\ Sportback.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 3px;
+  margin-top: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container3 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container4 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Audi/RS\ 3\ Sportback.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container4 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container5 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Audi/TT\ RS\ plus\ Coupé.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container5 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+/* ----------------------------------------------- BMW ----------------------------------------------- */
+
+#container6 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/BMW/M8\ COMPETITION\ COUPÉ.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container6 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container7 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/BMW/X6\ M\ Competition.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container7 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container8 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/BMW/M5\ Competition.JPG);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container8 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container9 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/BMW/M4\ Competition\ Coupé.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container9 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container10 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/BMW/M2\ Competition.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container10 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+/* ----------------------------------------------- Mercedes ----------------------------------------------- */
+
+#container11 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Mercedes/a45s\ amg.png);
+  background-position: top;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container11 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container12 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Mercedes/c63s.png);
+  background-position: top;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container12 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container13 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Mercedes/g63.png);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container13 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container14 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Mercedes/gt\ coupe.png);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container14 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container15 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Mercedes/s\ class\ sedan.png);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container15 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+
+/* ----------------------------------------------- Tesla ----------------------------------------------- */
+
+#container16 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Tesla/model3.png);
+  background-position: top;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container16 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container17 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Tesla/cybertruck.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container17 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container18 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Tesla/model\ s.png);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container18 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container19 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Tesla/model\ x.png);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container19 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container20 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Tesla/model\ y.png);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container20 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+/* ----------------------------------------------- Volkswagen ----------------------------------------------- */
+
+#container21 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Volkswagen/vw_golf_8_r_plus_blue_flipped_1.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container21 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container22 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Volkswagen/volkswagen-t-roc-r-essai_HD_0.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container22 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container23 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Volkswagen/2019-volkswagen-e-golf_100715846_h.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container23 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container24 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Volkswagen/vw-tiguan-r-spy-photos1.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container24 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container25 {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Volkswagen/golfGTI.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container25 p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+
+
+#footer
+{
+  width: 100%;
+  height: 23em;
+  background-color: rgb(255, 255, 255, 0.1)
+}
+#containerMdp
+{
+  width: 100%;
+  padding-bottom: 1em;
+
+}
+#MDP
+{
+  color: white;
+  text-align: center;
+}
+#containerImgMdp
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgMpd
+{
+  margin: 0 auto;
+}
+
+/*RESPONSIV DESIGN*/
+
+@media only screen and (max-width: 720px)
+{
+  .imgMpd
+  {
+    width: 30em;
+  }
+}
+
+@media only screen and (max-width: 497px)
+{
+  .imgMpd
+  {
+    width: 15em;
+  }
+}
+
+#containerSemi1 a {
+  text-decoration: none;
+  color: black;
+  box-shadow: none;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contianerSemi1 a:hover {
+  color: black;
+  text-decoration: none;
+  box-shadow: none;
+}

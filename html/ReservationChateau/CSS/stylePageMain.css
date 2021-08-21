@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.iframe-form {
+    background-color: white;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgCentralTop {
+    background-image: url(../RESSOURCES/IMAGES/chateau.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+
+.imgCentralTop img {
+    width: auto;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgCentralTop p{
+    border: solid white;
+    border-radius: 5px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 45vh;
+    margin-bottom: auto;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.imgCentralTop .description {
+    font-size: 20px;
+}

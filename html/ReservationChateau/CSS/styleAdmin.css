@@ -1,0 +1,44 @@
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #232227;
+    font-family: system-ui;
+}
+
+div {
+    margin: 0 auto;
+    color: white;
+    background-color: #ffffff0f;
+    padding: 100px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+div h2 {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #e76642;
+} 
+
+div p {
+    text-align: left;
+    font-size: 20px;
+}
+
+div a {
+    border-radius: 2vw;
+    justify-content: center;
+    text-align: center;
+    width: 10vw;
+    display: inline-flex;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border: 2px black solid;
+}
+
+div a:hover {
+    
+}

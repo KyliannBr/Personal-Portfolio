@@ -1,0 +1,186 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body
+{
+  background-image: url(fontbody.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  display: none;
+}
+
+#FP {
+  font-size: 23px;;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#containerMega {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  background-color: rgb(255, 255, 255, 0.1);
+  margin-top: 2em;
+  border-radius: 6px;
+}
+
+#containerSemi1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#containerSemi1 #contianerPresentation p {
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#container1Audi:hover {box-shadow: -7px 9px 16px;}
+#container2BMW:hover {box-shadow: -7px 9px 16px;}
+#container3Tesla:hover {box-shadow: -7px 9px 16px;}
+#container4Mercedes:hover {box-shadow: -7px 9px 16px;}
+
+#container1Audi {
+  width: 30em;
+  height: 15em;
+  background-image: url(Audi/R8_V10_decennium.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  box-shadow: -4px 4px 8px;
+}
+
+#container1Audi p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container2BMW {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/BMW/M8\ COMPETITION\ COUPÉ.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  box-shadow: -4px 4px 8px;
+}
+
+#container2BMW p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container3Tesla {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Tesla/model\ x.png);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 3px;
+  margin-top: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container3Tesla p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#container4Mercedes {
+  width: 30em;
+  height: 15em;
+  background-image: url(../CSS/Mercedes/gt\ coupe.png);
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: -4px 4px 8px;
+}
+#container4Mercedes p { margin-top: 44%; background-color: whitesmoke; padding: 2%; padding-left: 5%; z-index: 2; width: 30em; margin-left: -3%; border-radius: 3px; }
+
+#containerCenter
+{
+  min-width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#containerCenter p {
+  color: white;
+  padding-left: 100%;
+  padding-right: 100%;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+#footer
+{
+  width: 100%;
+  height: 23em;
+  background-color: rgb(255, 255, 255, 0.1)
+}
+#containerMdp
+{
+  width: 100%;
+  padding-bottom: 1em;
+
+}
+#MDP
+{
+  color: white;
+  text-align: center;
+}
+#containerImgMdp
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgMpd
+{
+  margin: 0 auto;
+}
+
+/*RESPONSIV DESIGN*/
+
+@media only screen and (max-width: 720px)
+{
+  .imgMpd
+  {
+    width: 30em;
+  }
+}
+
+@media only screen and (max-width: 497px)
+{
+  .imgMpd
+  {
+    width: 15em;
+  }
+}
+
+
+#containerSemi1 a {
+  text-decoration: none;
+  color: black;
+  box-shadow: none;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contianerSemi1 a:hover {
+  color: black;
+  text-decoration: none;
+  box-shadow: none;
+}

@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #232227;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100%;
+    margin-top: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper div .input1 {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.imgCentralTop {
+    background-image: url(../CSS/image/imgTopCentre.jpg);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+
+.imgCentralTop img {
+    width: auto;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgCentralTop p{
+    border: solid white;
+    border-radius: 5px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40vh;
+    margin-bottom: auto;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    background-color: #00000070;
+}
+
+.imgCentralTop .description {
+    font-size: 20px;
+}
+
+.agenda {
+    width: 40%;
+    height: auto;
+}
+
+.input1 {
+    margin-bottom: 5px;
+}
+
+.input1 input {
+    height: 25px;
+}
+
+.input2 {
+    margin-bottom: 5px;
+}
+
+.input2 input {
+    height: 25px;
+}
+
+.input3 input {
+    height: 25px;
+}
+
+form {
+    color: white;
+    background-color: #ffffff0f;
+    padding: 100px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    width: 15%;
+    border-radius: 20px;
+}
+
+form div p {
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 1vh;
+    width: 15vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer button {
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+    background-color: #e76642;
+    color: azure;
+    border: none;
+    border-radius: 11px;
+    width: 15vw;
+    margin-bottom: 2px;
+}
+
+.buttonInscrire {
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+    background-color: #e76642;
+    color: azure;
+    border: none;
+    border-radius: 11px;
+    width: 10vw;
+}
+/*
+.wrapper2 {
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.wrapper2 form {
+    color: white;
+    background-color: #232227;
+    margin-top: 1%;
+    width: 640px;
+    font-family: system-ui;
+    margin-bottom: 1%;
+}
+
+.wrapper2 form h2 {
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 3px solid #e76642;
+}
+
+.wrapper2 form div {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrapper2 form div label {
+    display: inline;
+    width: 500px;
+}
+*/
+.wrapper2 {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.wrapper2 nav {
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+.wrapper2 form {
+    color: white;
+    background-color: #232227;
+    margin-top: 1%;
+    width: 640px;
+    font-family: system-ui;
+    margin-bottom: 1%;
+}
+
+.wrapper2 form h2 {
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 3px solid #e76642;
+}
+
+.wrapper2 form .typeReservation {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper2 form .typeReservation div label {
+    float: left;
+    margin-left: 25%;
+}
+
+.wrapper2 form .typeReservation div input {
+    float: right;
+    margin-right: 25%;
+}
+
+.wrapper2 form div input {
+    display: inline;
+    float: right;
+    margin-left: 10%;
+    width: 150px;
+}
+
+.wrapper2 form div .inputNbrPersonnesInvitees {
+    margin-top: -2.7%;
+}
+
+.wrapper2 form footer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.wrapper2 form footer button {
+    background-color: #e76642;
+}
+
+.wrapper2 form div p{
+    display: inline;
+    color: red;
+    font-size: 16px;
+    float: right;
+}
+
+.jzdbox1 {
+    margin-left: 15%;
+    margin-top: 5%;
+    float: right;
+    width:315px; 
+    background:#332f2e; 
+    border-radius:5px; 
+    overflow:hidden; 
+    display:block; 
+    margin-bottom:10px; 
+    box-shadow:0 0 10px #201d1c; 
+  }
+  
+  .jzdcal {
+    padding:0 10px 10px 10px; 
+    box-sizing:border-box!important; 
+    background:#749d9e; 
+    background: -webkit-linear-gradient(#749d9e, #b3a68b)!important; 
+    background: -o-linear-gradient(#749d9e, #b3a68b)!important; 
+    background: -moz-linear-gradient(#749d9e, #b3a68b)!important; 
+    background: linear-gradient(#749d9e, #b3a68b)!important;
+  }
+  
+  .jzdcalt {
+    font:18px 'Roboto'; 
+    font-weight:700; 
+    color:#f7f3eb; 
+    display:block; 
+    margin:18px 0 0 0; 
+    text-transform:uppercase; 
+    text-align:center; 
+    letter-spacing:1px;
+  }
+  
+  .jzdcal span {
+    font:11px 'Roboto'; 
+    font-weight:400; 
+    color:#f7f3eb; 
+    text-align:center; 
+    width:42px; 
+    height:42px; 
+    display:inline-block; 
+    overflow:hidden; 
+    line-height:40px;
+  }
+  
+  .jzdcal .jzdb:before {
+    opacity:0.3; 
+    content:'o';
+  }
+  
+  .circle {
+    border:1px solid #f7f3eb; 
+    box-sizing:border-box!important; 
+    border-radius:200px!important;
+  }
+  
+  span[data-title]:hover:after, 
+  div[data-title]:hover:after {
+    font:11px 'Roboto'; 
+    font-weight:400; 
+    content:attr(data-title); 
+    position:absolute; 
+    margin:0 0 100px; 
+    background:#282423; 
+    border:1px solid #f7f3eb; 
+    color:#f7f3eb; 
+    padding:5px; 
+    z-index:9999; 
+    min-width:150px; 
+    max-width:150px;
+  }
+
+.attente div {
+    position: relative;
+    top: 5vh;
+    margin: 0 auto;
+    color: white;
+    background-color: #ffffff0f;
+    padding: 100px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.attente div p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+

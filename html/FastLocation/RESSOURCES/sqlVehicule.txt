@@ -1,0 +1,30 @@
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('AA123AA', 'Audi', 'R8 V10 Decennium', 'Noir', 620);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('BB123BB', 'Audi', 'RSQ8 ABT', 'Gris', 740);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('CC123CC', 'Audi', 'RS7 Sportback', 'Vert Foret', 605);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('DD123DD', 'Audi', 'RS3 Sportback', 'Gris metalique', 400);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('EE123EE', 'Audi', 'TT RS Coupe', 'Rouge', 400);
+
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('FF123FF', 'BMW', 'M8 Competition Coupe', 'Orange', 617);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('GG123GG', 'BMW', 'X6 M Competition', 'Noir', 625);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('HH123HH', 'BMW', 'M5 Competition', 'Gris', 625);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('II123II', 'BMW', 'M4 Competition Coupe', 'Jaune', 510);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('JJ123JJ', 'BMW', 'M2 Competition', 'Blanche', 410);
+
+
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('KK123KK', 'Mercedes', 'A45 S AMG', 'Gris', 421);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('LL123LL', 'Mercedes', 'C63 S', 'Noir', 510);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('MM123MM', 'Mercedes', 'G63 AMG', 'Gris', 540);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('NN123NN', 'Mercedes', 'GT Coupe, 'Noir', 585);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('OO123OO', 'Mercedes', 'Classe S Sedan', 'Gris', 630);
+
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('PP123PP', 'Tesla', 'Model 3', 'Blanc', 483);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('QQ123QQ', 'Tesla', 'Cybertruck', 'Gris', 500);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('RR123RR', 'Tesla', 'Model S', 'Rouge', 611);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('SS123SS', 'Tesla', 'Model X', 'Blanc', 611);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('TT123TT', 'Tesla', 'Model Y', 'Blanc', 483);
+
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('UU123UU', 'Volkswagen', 'Golf 8 R', 'Bleu', 310);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('VV123VV', 'Volkswagen', 'T-ROC R', 'Orange', 300);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('WW123WW', 'Volkswagen', 'E-Golf', 'Blanc', 136);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('XX123XX', 'Volkswagen', 'Tiguan R', 'Noir', 220);
+INSERT INTO Voiture (immatriculation, marque, modele, couleur, chevaux) VALUES ('YY123YY', 'Volkswagen', 'Golf 8 GTI', 'Blanc', 245);
